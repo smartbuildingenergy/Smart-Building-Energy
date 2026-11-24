@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets (never commit these)
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# Build / temp
+*.tmp
+*.bak
+dist/
+build/
